@@ -41,8 +41,13 @@ git clone git@github.com:cfcommunity/llm-marketplace.git ~/dev/cfcommunity/llm-m
 
 ## Versioning
 
-Bump `version` in `plugins/svelte-skills/.claude-plugin/plugin.json` on changes.
+Bump `version` in `plugins/<your-plugin>/.claude-plugin/plugin.json` on changes.
 
 ## Credits
 
 Inspiration / copied from: https://github.com/spences10/svelte-skills-kit
+
+# Contributing
+
+- Helpful docs: https://code.claude.com/docs/en/plugin-marketplaces#marketplace-schema
+- Need to at least add some metadata to the `.claude-plugin/plugin.json` file for your plugin. You may optionally include the source code in this repo (see the taffy plugin for an example), or link to your github repo. [docs](https://code.claude.com/docs/en/plugin-marketplaces#plugin-sources)

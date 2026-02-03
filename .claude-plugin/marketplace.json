@@ -1,0 +1,17 @@
+{
+	"name": "cfml-llms-marketplace",
+	"owner": {
+		"name": "cfcommunity github org"
+	},
+	"plugins": [
+		{
+			"name": "taffy",
+			"source": "./plugins/taffy",
+			"description": "Taffy CFML REST API syntax + docs reference",
+			"version": "1.0.0",
+			"author": {
+				"name": "Adam Tuttle <adamtuttlecodes@gmail.com>"
+			}
+		}
+	]
+}
