@@ -1,0 +1,8 @@
+{
+	"name": "taffy",
+	"description": "Taffy REST API framework skills for building and maintaining Taffy-powered REST APIs.",
+	"version": "1.0.0",
+	"author": {
+		"name": "Adam Tuttle"
+	}
+}
